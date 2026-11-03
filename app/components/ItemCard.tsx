@@ -1,5 +1,6 @@
 import {Item} from "@/lib/items";
 import FlagButton from "@/app/components/FlagButton";
+import AddToPickListButton from "@/app/components/AddToPickListButton";
 
 type ItemDetailsProps = {
   id: number;
@@ -32,6 +33,8 @@ export default function ItemCard({ id, sku, name, category, quantity, location }
                 </span>}
 
             <p className="text-sm text-gray-600">Location: {location}</p>
+     
+            <AddToPickListButton  itemId={id} outOfStock={quantity === 0}/>
         </div>
     );
 }           

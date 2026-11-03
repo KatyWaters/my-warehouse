@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { PickListProvider } from "./components/PickListProvider";
-
+import PickListBadge from "./components/PickListBadge";
 
 
 const geistSans = Geist({ 
@@ -30,8 +30,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <PickListProvider>
          <header className="flex justify-between border-b p-4">
+   
                 <span className="font-bold">My Warehouse</span>
                 <div className="flex gap-4 font-sans text-sm font-bold text-blue-500">
+                                  <PickListBadge />
                 <Link href="/" className="font-bold" rel="stylesheet">Dashboard</Link>
                 <Link href="/inventory" className="font-bold" rel="stylesheet">Inventory</Link>
                 <Link href="/pick-list" className="font-bold" rel="stylesheet">Pick List</Link>
