@@ -1,5 +1,5 @@
 
-'use client';
+'use client'; // make it a client component
 
 import { useState, createContext, useContext,ReactNode } from "react";
 
