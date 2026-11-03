@@ -1,5 +1,6 @@
 import { items } from "@/lib/items";
 import ItemCard from "@/app/components/ItemCard";
+import FlagButton from "../components/FlagButton";
 
 
 export default function InventoryPage() {
@@ -8,6 +9,7 @@ export default function InventoryPage() {
         <h1 className="text-2xl font-bold">Stock Inventory : </h1>
         {items.map((item) => (
             <ItemCard key={item.id} {...item} />
+            
         ))}
 
     </div>

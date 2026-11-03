@@ -64,30 +64,6 @@ export const items: Item[] = [
 //         quantity: 0,
 //         location: "Aisle 5, Shelf 2",   
 //     }
-//     // {
-//     //     id: 1,
-//     //     sku: "SKU001",
-//     //     name: "TF Portobello Oud N68 Difuser - 260ml",
-//     //     category: "Senses",
-//     //     quantity: 5,
-//     //     location: "Aisle 1, Shelf 2",
-//     // },
-//     // {
-//     //     id: 2,
-//     //     sku: "SKU002",
-//     //     name: "Ninety Six N16 Candle - 286g",
-//     //     category: "Candles",
-//     //     quantity: 0,
-//     //     location: "Aisle 2, Shelf 3",
-//     // },
-//     // {
-//     //     id: 3,
-//     //     sku: "SKU003",
-//     //     name: "TF Portobello Oud N68 Candle - 50ml",
-//     //     category:  "Candles",
-//     //     quantity: 15,
-//     //     location: "Aisle 1, Shelf 1",
-//     // },
 // ];  
 
   
