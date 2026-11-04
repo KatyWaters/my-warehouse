@@ -33,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
    
                 <span className="font-bold">My Warehouse</span>
                 <div className="flex gap-4 font-sans text-sm font-bold text-blue-500">
-                                  <PickListBadge />
+                <PickListBadge />
                 <Link href="/" className="font-bold" rel="stylesheet">Dashboard</Link>
                 <Link href="/inventory" className="font-bold" rel="stylesheet">Inventory</Link>
                 <Link href="/pick-list" className="font-bold" rel="stylesheet">Pick List</Link>
